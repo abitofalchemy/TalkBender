@@ -1,0 +1,68 @@
+{
+    "name": "users",
+    "children": [
+        {
+           
+                    "name": "screen_names",
+                    "children": [
+                        {
+                            "name": "rnaxwell",
+                            "size": 7938
+                        },
+                        {
+                            "name": "wheat_ley",
+                            "size": 1812
+                        },
+                        {
+                            "name": "SarahEVanDe",
+                            "size": 3812
+                        },
+                        {
+                            "name": "cocoalv4",
+                            "size": 17010
+                        },
+                        {
+                            "name": "coreybauters",
+                            "size": 5842
+                        },
+                        {
+                            "name": "christinapearlh",
+                            "size": 1983
+                        },
+                        {
+                            "name": "itcdm",
+                            "size": 2047
+                        },
+                        {
+                            "name": "naomispeicher",
+                            "size": 1375
+                        },
+                        {
+                            "name": "LeonHendrix",
+                            "size": 8746
+                        },
+                        {
+                            "name": "midnightdog",
+                            "size": 2202
+                        },
+                        {
+                            "name": "Jillian_Mahen",
+                            "size": 1382
+                        },
+                        {
+                            "name": "katshotcakes",
+                            "size": 1629
+                        },
+                        {
+                            "name": "SenDanCoats",
+                            "size": 1675
+                        },
+                        {
+                            "name": "kayminer",
+                            "size": 2042
+                        }
+                    ]
+                }
+            
+    ]
+}

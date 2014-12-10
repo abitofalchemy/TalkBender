@@ -1,0 +1,125 @@
+{
+    "name": "topics",
+    "children": [
+        {
+            "name": "National Politics",
+            "children": [
+                {
+                    "name": "class",
+                    "children": [
+                        {
+                            "name": "immigrants",
+                            "size": 7938
+                        },
+                        {
+                            "name": "obama",
+                            "size": 1812
+                        },
+                        {
+                            "name": "president",
+                            "size": 3812
+                        },
+                        {
+                            "name": "country",
+                            "size": 1812
+                        },
+                        {
+                            "name": "workers",
+                            "size": 3812
+                        },
+                        {
+                            "name": "illegal",
+                            "size": 3812
+                        },
+                        {
+                            "name": "undocumented",
+                            "size": 1812
+                        },
+                        {
+                            "name": "employees",
+                            "size": 3812
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Nuclear Disaster",
+            "children": [
+                {
+                    "name": "fukushima",
+                    "size": 17010
+                },
+                {
+                    "name": "nuclear",
+                    "size": 5842
+                },
+                {
+                    "name": "interpolate",
+                    "children": [
+                        {
+                            "name": "fuel",
+                            "size": 1983
+                        },
+                        {
+                            "name": "national",
+                            "size": 2047
+                        },
+                        {
+                            "name": "workers",
+                            "size": 1375
+                        },
+                        {
+                            "name": "democrats",
+                            "size": 746
+                        },
+                        {
+                            "name": "labor",
+                            "size": 2202
+                        },
+                        {
+                            "name": "apocalypse",
+                            "size": 1382
+                        }
+                    ]
+                },
+                {
+                    "name": "police",
+                    "size": 1041
+                },
+                {
+                    "name": "camera",
+                    "size": 5176
+                },
+                {
+                    "name": "brown",
+                    "size": 8746
+                },
+                {
+                    "name": "carly",
+                    "size": 5593
+                },
+                {
+                    "name": "officers",
+                    "size": 5534
+                },
+                {
+                    "name": "body",
+                    "size": 9201
+                },
+                {
+                    "name": "prayer",
+                    "size": 19975
+                },
+                {
+                    "name": "riot",
+                    "size": 1116
+                },
+                {
+                    "name": "ferguson",
+                    "size": 6006
+                }
+            ]
+        }
+    ]
+}

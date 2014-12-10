@@ -1,0 +1,40 @@
+{
+    "users": [
+        {
+            "s_name": "jdrs",
+            "prolif": 300,
+            "topics": [
+                "word1",
+                "word2"
+            ]
+        },
+        {
+            "s_name": "superman",
+            "prolif": 300,
+            "topics": [
+                "word1",
+                "word2"
+            ]
+        },
+        {
+            "s_name": "jovonas",
+            "prolif": 180,
+            "topics": [
+                "word1",
+                "word2"
+            ]
+        },
+        {
+            "s_name": "abitof",
+            "prolif": 200,
+            "topics": [
+                "word2",
+                "word3"
+            ],
+            "tweets": [
+                "tweet1",
+                "tweet2"
+            ]
+        }
+    ]
+}

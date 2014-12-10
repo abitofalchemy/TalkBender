@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8855CB801A384B1B000708F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8855CB7F1A384B1B000708F5 /* main.m */; };
+		8855CB831A384B1B000708F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8855CB821A384B1B000708F5 /* AppDelegate.m */; };
+		8855CB861A384B1B000708F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8855CB851A384B1B000708F5 /* ViewController.m */; };
+		8855CB891A384B1B000708F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8855CB871A384B1B000708F5 /* Main.storyboard */; };
+		8855CB8B1A384B1B000708F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8855CB8A1A384B1B000708F5 /* Images.xcassets */; };
+		8855CB8E1A384B1B000708F5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8855CB8C1A384B1B000708F5 /* LaunchScreen.xib */; };
+		8855CB9A1A384B1B000708F5 /* TalkBenderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8855CB991A384B1B000708F5 /* TalkBenderTests.m */; };
+		8855CBA41A384B46000708F5 /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8855CBA31A384B46000708F5 /* ReadMe.txt */; };
+		8855CBAE1A384B74000708F5 /* 150x199_sci_logo_vertical.png in Resources */ = {isa = PBXBuildFile; fileRef = 8855CBA51A384B74000708F5 /* 150x199_sci_logo_vertical.png */; };
+		8855CBAF1A384B74000708F5 /* AbitOfViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8855CBA71A384B74000708F5 /* AbitOfViewController.m */; };
+		8855CBB01A384B74000708F5 /* logo_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 8855CBA81A384B74000708F5 /* logo_red.png */; };
+		8855CBB11A384B74000708F5 /* sbt_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8855CBA91A384B74000708F5 /* sbt_logo.png */; };
+		8855CBB21A384B74000708F5 /* sbtribune_x400.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8855CBAA1A384B74000708F5 /* sbtribune_x400.jpeg */; };
+		8855CBB31A384B74000708F5 /* schurz_logo_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 8855CBAB1A384B74000708F5 /* schurz_logo_0.png */; };
+		8855CBB41A384B74000708F5 /* schurz_logo_x44.png in Resources */ = {isa = PBXBuildFile; fileRef = 8855CBAC1A384B74000708F5 /* schurz_logo_x44.png */; };
+		8855CBB51A384B74000708F5 /* sci_dc_logo_col.png in Resources */ = {isa = PBXBuildFile; fileRef = 8855CBAD1A384B74000708F5 /* sci_dc_logo_col.png */; };
+		8855CBBB1A384BC6000708F5 /* tb_logo_x44.png in Resources */ = {isa = PBXBuildFile; fileRef = 8855CBB71A384BC6000708F5 /* tb_logo_x44.png */; };
+		8855CBBC1A384BC6000708F5 /* tb_logo_x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 8855CBB81A384BC6000708F5 /* tb_logo_x120.png */; };
+		8855CBBD1A384BC6000708F5 /* tb_logo_x500.png in Resources */ = {isa = PBXBuildFile; fileRef = 8855CBB91A384BC6000708F5 /* tb_logo_x500.png */; };
+		8855CBBE1A384BC6000708F5 /* tb_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8855CBBA1A384BC6000708F5 /* tb_logo.png */; };
+		8855CBC31A384BDD000708F5 /* WelcomeViewCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 8855CBC01A384BDD000708F5 /* WelcomeViewCtrl.m */; };
+		8855CBC41A384BDD000708F5 /* wsbt22_x300.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8855CBC11A384BDD000708F5 /* wsbt22_x300.jpg */; };
+		8855CBC51A384BDD000708F5 /* wsbt22_x400.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8855CBC21A384BDD000708F5 /* wsbt22_x400.jpeg */; };
+		8855CBC71A384BF6000708F5 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 8855CBC61A384BF6000708F5 /* www */; };
+		8855CBCA1A384DFF000708F5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8855CBC91A384DFF000708F5 /* CoreLocation.framework */; };
+		8855CBCC1A384E07000708F5 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8855CBCB1A384E07000708F5 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8855CB941A384B1B000708F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8855CB721A384B1B000708F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8855CB791A384B1B000708F5;
+			remoteInfo = TalkBender;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8855CB7A1A384B1B000708F5 /* TalkBender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TalkBender.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8855CB7E1A384B1B000708F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8855CB7F1A384B1B000708F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8855CB811A384B1B000708F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8855CB821A384B1B000708F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8855CB841A384B1B000708F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8855CB851A384B1B000708F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8855CB881A384B1B000708F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8855CB8A1A384B1B000708F5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8855CB8D1A384B1B000708F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8855CB931A384B1B000708F5 /* TalkBenderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TalkBenderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8855CB981A384B1B000708F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8855CB991A384B1B000708F5 /* TalkBenderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TalkBenderTests.m; sourceTree = "<group>"; };
+		8855CBA31A384B46000708F5 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
+		8855CBA51A384B74000708F5 /* 150x199_sci_logo_vertical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 150x199_sci_logo_vertical.png; sourceTree = "<group>"; };
+		8855CBA61A384B74000708F5 /* AbitOfViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbitOfViewController.h; sourceTree = "<group>"; };
+		8855CBA71A384B74000708F5 /* AbitOfViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbitOfViewController.m; sourceTree = "<group>"; };
+		8855CBA81A384B74000708F5 /* logo_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_red.png; sourceTree = "<group>"; };
+		8855CBA91A384B74000708F5 /* sbt_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sbt_logo.png; sourceTree = "<group>"; };
+		8855CBAA1A384B74000708F5 /* sbtribune_x400.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sbtribune_x400.jpeg; sourceTree = "<group>"; };
+		8855CBAB1A384B74000708F5 /* schurz_logo_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = schurz_logo_0.png; sourceTree = "<group>"; };
+		8855CBAC1A384B74000708F5 /* schurz_logo_x44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = schurz_logo_x44.png; sourceTree = "<group>"; };
+		8855CBAD1A384B74000708F5 /* sci_dc_logo_col.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sci_dc_logo_col.png; sourceTree = "<group>"; };
+		8855CBB71A384BC6000708F5 /* tb_logo_x44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tb_logo_x44.png; sourceTree = "<group>"; };
+		8855CBB81A384BC6000708F5 /* tb_logo_x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tb_logo_x120.png; sourceTree = "<group>"; };
+		8855CBB91A384BC6000708F5 /* tb_logo_x500.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tb_logo_x500.png; sourceTree = "<group>"; };
+		8855CBBA1A384BC6000708F5 /* tb_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tb_logo.png; sourceTree = "<group>"; };
+		8855CBBF1A384BDD000708F5 /* WelcomeViewCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewCtrl.h; sourceTree = "<group>"; };
+		8855CBC01A384BDD000708F5 /* WelcomeViewCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewCtrl.m; sourceTree = "<group>"; };
+		8855CBC11A384BDD000708F5 /* wsbt22_x300.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wsbt22_x300.jpg; sourceTree = "<group>"; };
+		8855CBC21A384BDD000708F5 /* wsbt22_x400.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wsbt22_x400.jpeg; sourceTree = "<group>"; };
+		8855CBC61A384BF6000708F5 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
+		8855CBC81A384D1F000708F5 /* TalkBender-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TalkBender-Prefix.pch"; sourceTree = "<group>"; };
+		8855CBC91A384DFF000708F5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8855CBCB1A384E07000708F5 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8855CB771A384B1B000708F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8855CBCC1A384E07000708F5 /* MapKit.framework in Frameworks */,
+				8855CBCA1A384DFF000708F5 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8855CB901A384B1B000708F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8855CB711A384B1B000708F5 = {
+			isa = PBXGroup;
+			children = (
+				8855CBCB1A384E07000708F5 /* MapKit.framework */,
+				8855CBC91A384DFF000708F5 /* CoreLocation.framework */,
+				8855CBA31A384B46000708F5 /* ReadMe.txt */,
+				8855CB7C1A384B1B000708F5 /* TalkBender */,
+				8855CB961A384B1B000708F5 /* TalkBenderTests */,
+				8855CB7B1A384B1B000708F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8855CB7B1A384B1B000708F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8855CB7A1A384B1B000708F5 /* TalkBender.app */,
+				8855CB931A384B1B000708F5 /* TalkBenderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8855CB7C1A384B1B000708F5 /* TalkBender */ = {
+			isa = PBXGroup;
+			children = (
+				8855CBA61A384B74000708F5 /* AbitOfViewController.h */,
+				8855CBA71A384B74000708F5 /* AbitOfViewController.m */,
+				8855CBBF1A384BDD000708F5 /* WelcomeViewCtrl.h */,
+				8855CBC01A384BDD000708F5 /* WelcomeViewCtrl.m */,
+				8855CB811A384B1B000708F5 /* AppDelegate.h */,
+				8855CB821A384B1B000708F5 /* AppDelegate.m */,
+				8855CB841A384B1B000708F5 /* ViewController.h */,
+				8855CB851A384B1B000708F5 /* ViewController.m */,
+				8855CB871A384B1B000708F5 /* Main.storyboard */,
+				8855CBC81A384D1F000708F5 /* TalkBender-Prefix.pch */,
+				8855CB8A1A384B1B000708F5 /* Images.xcassets */,
+				8855CB8C1A384B1B000708F5 /* LaunchScreen.xib */,
+				8855CBC61A384BF6000708F5 /* www */,
+				8855CBB61A384BA2000708F5 /* Media */,
+				8855CB7D1A384B1B000708F5 /* Supporting Files */,
+			);
+			path = TalkBender;
+			sourceTree = "<group>";
+		};
+		8855CB7D1A384B1B000708F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8855CB7E1A384B1B000708F5 /* Info.plist */,
+				8855CB7F1A384B1B000708F5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8855CB961A384B1B000708F5 /* TalkBenderTests */ = {
+			isa = PBXGroup;
+			children = (
+				8855CB991A384B1B000708F5 /* TalkBenderTests.m */,
+				8855CB971A384B1B000708F5 /* Supporting Files */,
+			);
+			path = TalkBenderTests;
+			sourceTree = "<group>";
+		};
+		8855CB971A384B1B000708F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8855CB981A384B1B000708F5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8855CBB61A384BA2000708F5 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				8855CBC11A384BDD000708F5 /* wsbt22_x300.jpg */,
+				8855CBC21A384BDD000708F5 /* wsbt22_x400.jpeg */,
+				8855CBB71A384BC6000708F5 /* tb_logo_x44.png */,
+				8855CBB81A384BC6000708F5 /* tb_logo_x120.png */,
+				8855CBB91A384BC6000708F5 /* tb_logo_x500.png */,
+				8855CBBA1A384BC6000708F5 /* tb_logo.png */,
+				8855CBA51A384B74000708F5 /* 150x199_sci_logo_vertical.png */,
+				8855CBA81A384B74000708F5 /* logo_red.png */,
+				8855CBA91A384B74000708F5 /* sbt_logo.png */,
+				8855CBAA1A384B74000708F5 /* sbtribune_x400.jpeg */,
+				8855CBAB1A384B74000708F5 /* schurz_logo_0.png */,
+				8855CBAC1A384B74000708F5 /* schurz_logo_x44.png */,
+				8855CBAD1A384B74000708F5 /* sci_dc_logo_col.png */,
+			);
+			name = Media;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8855CB791A384B1B000708F5 /* TalkBender */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8855CB9D1A384B1B000708F5 /* Build configuration list for PBXNativeTarget "TalkBender" */;
+			buildPhases = (
+				8855CB761A384B1B000708F5 /* Sources */,
+				8855CB771A384B1B000708F5 /* Frameworks */,
+				8855CB781A384B1B000708F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TalkBender;
+			productName = TalkBender;
+			productReference = 8855CB7A1A384B1B000708F5 /* TalkBender.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8855CB921A384B1B000708F5 /* TalkBenderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8855CBA01A384B1B000708F5 /* Build configuration list for PBXNativeTarget "TalkBenderTests" */;
+			buildPhases = (
+				8855CB8F1A384B1B000708F5 /* Sources */,
+				8855CB901A384B1B000708F5 /* Frameworks */,
+				8855CB911A384B1B000708F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8855CB951A384B1B000708F5 /* PBXTargetDependency */,
+			);
+			name = TalkBenderTests;
+			productName = TalkBenderTests;
+			productReference = 8855CB931A384B1B000708F5 /* TalkBenderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8855CB721A384B1B000708F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = abitofalchemy;
+				TargetAttributes = {
+					8855CB791A384B1B000708F5 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					8855CB921A384B1B000708F5 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 8855CB791A384B1B000708F5;
+					};
+				};
+			};
+			buildConfigurationList = 8855CB751A384B1B000708F5 /* Build configuration list for PBXProject "TalkBender" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8855CB711A384B1B000708F5;
+			productRefGroup = 8855CB7B1A384B1B000708F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8855CB791A384B1B000708F5 /* TalkBender */,
+				8855CB921A384B1B000708F5 /* TalkBenderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8855CB781A384B1B000708F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8855CBC71A384BF6000708F5 /* www in Resources */,
+				8855CBB21A384B74000708F5 /* sbtribune_x400.jpeg in Resources */,
+				8855CB891A384B1B000708F5 /* Main.storyboard in Resources */,
+				8855CBAE1A384B74000708F5 /* 150x199_sci_logo_vertical.png in Resources */,
+				8855CBB31A384B74000708F5 /* schurz_logo_0.png in Resources */,
+				8855CBBE1A384BC6000708F5 /* tb_logo.png in Resources */,
+				8855CBB01A384B74000708F5 /* logo_red.png in Resources */,
+				8855CBB11A384B74000708F5 /* sbt_logo.png in Resources */,
+				8855CBB51A384B74000708F5 /* sci_dc_logo_col.png in Resources */,
+				8855CB8E1A384B1B000708F5 /* LaunchScreen.xib in Resources */,
+				8855CBA41A384B46000708F5 /* ReadMe.txt in Resources */,
+				8855CBBD1A384BC6000708F5 /* tb_logo_x500.png in Resources */,
+				8855CBB41A384B74000708F5 /* schurz_logo_x44.png in Resources */,
+				8855CBC41A384BDD000708F5 /* wsbt22_x300.jpg in Resources */,
+				8855CB8B1A384B1B000708F5 /* Images.xcassets in Resources */,
+				8855CBBB1A384BC6000708F5 /* tb_logo_x44.png in Resources */,
+				8855CBBC1A384BC6000708F5 /* tb_logo_x120.png in Resources */,
+				8855CBC51A384BDD000708F5 /* wsbt22_x400.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8855CB911A384B1B000708F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8855CB761A384B1B000708F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8855CB861A384B1B000708F5 /* ViewController.m in Sources */,
+				8855CBAF1A384B74000708F5 /* AbitOfViewController.m in Sources */,
+				8855CBC31A384BDD000708F5 /* WelcomeViewCtrl.m in Sources */,
+				8855CB831A384B1B000708F5 /* AppDelegate.m in Sources */,
+				8855CB801A384B1B000708F5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8855CB8F1A384B1B000708F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8855CB9A1A384B1B000708F5 /* TalkBenderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8855CB951A384B1B000708F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8855CB791A384B1B000708F5 /* TalkBender */;
+			targetProxy = 8855CB941A384B1B000708F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8855CB871A384B1B000708F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8855CB881A384B1B000708F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8855CB8C1A384B1B000708F5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8855CB8D1A384B1B000708F5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8855CB9B1A384B1B000708F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8855CB9C1A384B1B000708F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8855CB9E1A384B1B000708F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TalkBender/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8855CB9F1A384B1B000708F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TalkBender/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8855CBA11A384B1B000708F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TalkBenderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TalkBender.app/TalkBender";
+			};
+			name = Debug;
+		};
+		8855CBA21A384B1B000708F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TalkBenderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TalkBender.app/TalkBender";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8855CB751A384B1B000708F5 /* Build configuration list for PBXProject "TalkBender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8855CB9B1A384B1B000708F5 /* Debug */,
+				8855CB9C1A384B1B000708F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8855CB9D1A384B1B000708F5 /* Build configuration list for PBXNativeTarget "TalkBender" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8855CB9E1A384B1B000708F5 /* Debug */,
+				8855CB9F1A384B1B000708F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8855CBA01A384B1B000708F5 /* Build configuration list for PBXNativeTarget "TalkBenderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8855CBA11A384B1B000708F5 /* Debug */,
+				8855CBA21A384B1B000708F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8855CB721A384B1B000708F5 /* Project object */;
+}

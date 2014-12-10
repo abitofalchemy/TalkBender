@@ -1,0 +1,59 @@
+{
+    "name": "topics",
+    "children": [
+        {
+            "name": "Politics",
+            "children": [
+                {
+                    "name": "372825348",
+                    "children": [
+                        {
+                            "name": "immigrants",
+                            "size": 7938
+                        },
+                        {
+                            "name": "obama",
+                            "size": 1812
+                        },
+                        {
+                            "name": "immigration",
+                            "size": 3812
+                        },
+                        {
+                            "name": "president",
+                            "size": 300
+                        },
+                        {
+                            "name": "nation",
+                            "size": 1800
+                        },
+                        {
+                            "name": "country",
+                            "size": 1600
+                        },
+                        {
+                            "name": "workers",
+                            "size": 1200
+                        },
+                        {
+                            "name": "illegal",
+                            "size": 1100
+                        },
+                        {
+                            "name": "undocumented",
+                            "size": 1100
+                        },
+                        {
+                            "name": "employees",
+                            "size": 0.006
+                        },
+                        {
+                            "name": "security",
+                            "size": 0.007
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

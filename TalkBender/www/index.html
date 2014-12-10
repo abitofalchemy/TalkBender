@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Salvador Word Cloud</title>
+<link href="cloud.css" rel="stylesheet">
+<body>
+<!--//<script src="../lib/d3/d3.js"></script>-->
+<script src="d3.v3.min.js"></script>
+
+<script src="d3.layout.cloud.js"></script>
+<script>
+    var fill = d3.scale.category20();
+    var diameter = 960,
+        format = d3.format(",d"),
+        color = d3.scale.category20c();
+
+    var bubble = d3.layout.pack()
+        .sort(null)
+        .size([diameter, diameter])
+        .padding(1.5);
+    
+    d3.json("topics.json", function(error, root) {
+        var jsonStr = bubble.nodes(classes(root)).filter(function(d) {
+            return !d.children; 
+        });    
+        d3.layout.cloud().size([500, 500])
+          .words(jsonStr.map(function(d) {
+            return {text: d.className, size: d.value/100};
+          }))
+          .padding(5)
+          .rotate(function() { return ~~(Math.random() * 2) * 90; })
+          .font("Impact")
+          .fontSize(function(d) { return d.size; })
+          .on("end", draw)
+          .start();
+        function draw(words) {
+        d3.select("body").append("svg")
+            .attr("width", 500)
+            .attr("height", 500)
+          .append("g")
+            .attr("transform", "translate(150,150)")
+          .selectAll("text")
+            .data(words)
+          .enter().append("text")
+            .style("font-size", function(d) { return d.size + "px"; })
+            .style("font-family", "Impact")
+            .style("fill", function(d, i) { return fill(i); })
+            .attr("text-anchor", "middle")
+            .attr("transform", function(d) {
+              return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+            })
+            .text(function(d) { return d.text; });
+        }
+    });
+
+    // Returns a flattened hierarchy containing all leaf nodes under the root.
+    function classes(root) {
+      var classes = [];
+
+      function recurse(name, node) {
+        if (node.children) node.children.forEach(function(child) { recurse(node.name, child); });
+        else classes.push({packageName: name, className: node.name, value: node.size});
+      }
+
+      recurse(null, root);
+      return {children: classes};
+    }
+</script>

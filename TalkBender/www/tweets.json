@@ -1,0 +1,68 @@
+{
+    "topics": [
+        {
+            "topicName": "Games",
+            "topicWeight": 300,
+            "tweets": [
+                {
+                    "id": 523572810871234560,
+                    "uid": 20746505,
+                    "text": "Boom. I’m 3rd Best in The Revolutionary War on #QuizUp! https://t.co/CnCmB47Is9"
+                },
+                {
+                    "id": 503718677997715460,
+                    "uid": 20746505,
+                    "text": "Boom. I’m Top 10 in The American Civil War on #QuizUp! https://t.co/9smeDoYwu0"
+                }
+            ]
+        },
+        {
+            "topicName": "Productivity",
+            "topicWeight": 180,
+            "tweets": [
+                {
+                    "id": 307929068169490400,
+                    "uid": 1226920106,
+                    "text": "ILC2013 Takeaway! Technology changes the battlefield! We need to be connected with our associates and clients. LETS DO THIS!!"
+                },
+                {
+                    "id": 307927890719293440,
+                    "uid": 1226920106,
+                    "text": "expressilc TAKE AWAY! Technology changes the battlefield and data is critical to being ahead of the competition."
+                }
+            ]
+        },
+        {
+            "topicName": "Cars",
+            "topicWeight": 120,
+            "tweets": [
+                {
+                    "id": 211902324766023680,
+                    "uid": 372825348,
+                    "text": "JGfortwayne reports that Mourdock's Chrysler suit was objecting to offer agreed to by 92% of bondholders"
+                },
+                {
+                    "id": 211456242919538700,
+                    "uid": 372825348,
+                    "text": "Supreme Court lifts stay on sale of Chrysler. PDF: http://t.co/C9CscHWi"
+                }
+            ]
+        },
+        {
+            "topicName": "Education",
+            "topicWeight": 120,
+            "tweets": [
+                {
+                    "id": 507881646465773600,
+                    "uid": 12269201,
+                    "text": "At the Busara Black Male Summit! http://t.co/snHguH4c1w"
+                },
+                {
+                    "id": 490131539129167900,
+                    "uid": 1226920106,
+                    "text": "RT @AfAmEducation: Honoring the birth of Nelson Mandela ~ \"Education is the most powerful weapon which you can use to change the world…\""
+                }
+            ]
+        }
+    ]
+}

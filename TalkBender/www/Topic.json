@@ -1,0 +1,112 @@
+{
+  "National Politics": {
+    "Wordlist": {
+      "immigrants": 0.055,
+      "obama": 0.049,
+      "immigration": 0.041,
+      "president": 0.03,
+      "nation": 0.018,
+      "country": 0.016,
+      "workers": 0.012,
+      "illegal": 0.011,
+      "undocumented": 0.011,
+      "employees": 0.006,
+      "security": 0.007
+    },
+    "TopicWeight": "2.8",
+    "Tweets": [
+      "RT @ABC: Pres. Obama immigration plan: Boost law enforcement personnel at US border to stem illegal crossings, speed return back - @ABCPoli…",
+      "OBAMA'S ILLEGALS will receive HUGE payments from taxpayers under rules imposed by Obama’s unilateral amnesty http://t.co/GPC8sq0y0R",
+      "Obama slammed for citing Bible to push amnesty for illegal immigrants"
+    ]
+  },
+  "State Politics": {
+    "Wordlist": {
+      "mourdock": 0.008,
+      "chamber": 0.007,
+      "state": 0.007,
+      "indiana": 0.006,
+      "chrysler": 0.004,
+      "campaign": 0.005,
+      "alienation": 0.006
+    },
+    "TopicWeight": "3.5",
+    "Tweets": [
+      "Washington Post columnist casts Mourdock among \"\"political ankle-biters\"\" of auto rescue http://t.co/WzPrqp1q",
+      "Mourdock, having gotten his Quixote right since 6/9, tells AP \"\"these are real dragons,\"\" not windmills being seen as dragons",
+      "Wall St Journal notes that Mourdock's atty, Thomas Lauria, backed off of claims that the White House threatened one of his clients",
+      "Kokomo Trib urges Mourdock to drop suit after stay denied, says if he takes his financial responsibility seriously he'll drop it",
+      "@JGfortwayne reports that Mourdock's Chrysler suit was objecting to offer agreed to by 92% of bondholders",
+      "NY Times reports Chrysler is losing $100 Million every day sale is stalled by Mourdock"
+    ]
+  },
+  "Nuclear Disaster": {
+    "Wordlist": {
+      "fukushima": 0.01,
+      "nuclear": 0.014,
+      "fuel": 0.018,
+      "national": 0.016,
+      "workers": 0.006,
+      "democrats": 0.005,
+      "apocalypse": 0.016,
+      "hell": 0.006,
+      "labor": 0.007,
+      "rods": 0.007
+    },
+    "TopicWeight": "1.2",
+    "Tweets": [
+      "\"Apocalyptic\" Fukushima Fuel Rod Removal Begins Nov. 8; TEPCO Subcontracts Yakuza gangsters http://t.co/HocaBMJHpm via @dailykos"
+    ]
+  },
+  "Ferguson": {
+    "Wordlist": {
+      "police": 0.086,
+      "camera": 0.055,
+      "brown": 0.028,
+      "officers": 0.023,
+      "body": 0.021,
+      "wilson": 0.019,
+      "prayer": 0.077,
+      "riot": 0.012,
+      "ferguson": 0.008,
+      "juries": 0.009
+    },
+    "TopicWeight": "1.6",
+    "Tweets": [
+      "Broadway and Grand St, Soho. Protesting grand jury decision #Ferguson #nycprotest http://t.co/kIBn1UDtqs",
+      "#DarrenWilson acquitted by Ferguson grand jury, false equivalency comparing property damage to murder http://t.co/mXbBWIC…",
+      " Ferguson: \"\"This Non-Indictment is an Indictment!\"\" | @Rev. Dr. William J. Barber, II - YouTube | 11/25/14... http://t.co/tdqVFgg7BE\"",
+      "RT @juliafspa: This #RealNun is off to bed with mixed feelings about #TheSisterhood. Welcome to my new followers! P.S. Pray for #Ferguson!"
+    ]
+  },
+  "Books": {
+    "Wordlist": {
+      "harry": 0.036,
+      "potter": 0.02,
+      "rowling": 0.013,
+      "stores": 0.025,
+      "learn": 0.024,
+      "existentialism": 0.012,
+      "sartre": 0.009
+    },
+    "TopicWeight": "0.8",
+    "Tweets": [
+      "RT @UberFacts: J.K. Rowling wrote the final chapter of the 7th Harry Potter book 9 years before the 1st book was even released",
+      "\"RT @UberFacts: JK Rowling is working on a \"\"Harry Potter\"\" play"
+    ]
+  },
+  "Entertainment": {
+    "Wordlist": {
+      "carly": 0.023,
+      "sonny": 0.021,
+      "franco": 0.012,
+      "home": 0.005
+    },
+    "TopicWeight": "0.5",
+    "Tweets": [
+      "#GH  the only ones with half way interesting dialog is Franco and Heather#GH",
+      "#GH  so over Sonny and Carly",
+      "#GH   HEATHER!!!!!"
+    ]
+  }
+}
